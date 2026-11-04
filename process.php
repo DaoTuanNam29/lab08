@@ -9,7 +9,7 @@ if ($username == 'DaoTuanNam' && $password == '02988') {
     header('Location: welcome.php');
     exit;
 } else {
-    header('Location: login.html?error=1');
+    header('Location: login.php?error=1');
     exit;
 }
 ?>
